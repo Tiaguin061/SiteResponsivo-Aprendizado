@@ -3,23 +3,27 @@
     <img src="img/logo.png">
 </h1>
 
-<h1>
-    <video src="videoSobresite.mp4" alt="Video de Demonstração">
-</h1>
+<h2>
+    - Não estou conseguindo adicionar o video de demonstração 😕. Vá ao meu linkedin para ver.
+</h2>
+<h3> Meu linkedin </h3>
 
-# Indice
+- [Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:6683428220274020352/)
+
+# 🔗 Indície
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utlizadas)
 - [Como baixar o projeto](#-como-baixar-o-projeto)
 
 ---
-# Sobre
+# ℹ Sobre
 
 O projeto **NodeProp** foi criado quando comecei assistir uma séries de aulas, o intuito foi fazer um site responsivo, pois não entendia quase nada.
+Pretendo adicionar mais coisas aqui.
 
 ---
 
-# Tecnologias utilizadas
+# 💻 Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
@@ -29,7 +33,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ---
 
-# Como baixar o projeto
+# 💾 Como baixar o projeto
 
 ```bash
 
@@ -47,4 +51,4 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ``` 
 ---
 
-Desenvolvido por Tiago Gonçalves
+Desenvolvido por ❤ Tiago Gonçalves
