@@ -4,7 +4,7 @@
 </h1>
 
 <h1>
-    <img src="img/videoSobresite.mp4" alt="Video de Demonstração">
+    <video src="videoSobresite.mp4" alt="Video de Demonstração">
 </h1>
 
 # Indice
@@ -34,10 +34,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ```bash
 
     # Clonar o repositório
-    $ git clone https://github.com/Tiaguin061/SiteResponsivo-Aprendizado
-
+    $ git clone https://github.com/Tiaguin061/siteResponsivo
     # Entrar no diretório
-    $ cd SiteResponsivo-Aprendizado
+    $ cd siteResponsivo
 
     # Instalar as dependências
     $ yarn install
