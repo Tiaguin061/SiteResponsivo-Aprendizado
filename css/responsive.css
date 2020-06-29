@@ -1,0 +1,135 @@
+
+/* Mobile Firts */
+/* Small device smartphones */
+
+@media screen and (min-width: 480px) {
+    .logo {
+        width: 214px;
+        float: left;
+        background: url(../img/logo.png) center center/214px no-repeat;
+    }
+
+    .btn {
+        font-size: 2em;
+    }
+}
+
+/* Small device tablets */
+@media screen and (min-width: 768px) {
+    .servico {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+    }
+    /* vai tirar os 2% */
+    .servico:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .newsletter h2 {
+        font-size: 2em;
+    }
+    .newsletter h3 {
+        font-size: 1.5em;
+    }
+
+    .newsletter input {
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    /* Tirando 1% para o calculo ficar 100% */
+    .newsletter button {
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+    }
+}
+
+/* Small device tablets e desktops */
+@media screen and (min-width: 960px ) {
+    .title {
+        width: 70%;
+        float: left;
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 3em;
+    }
+
+    .title h3 {
+        font-size: 2em;
+    }
+
+    .buttons {
+        width: 30%;
+        float: right;
+        margin-top: 0;
+    }
+
+    .servico {
+        width: 32%;
+    }
+
+    /* O margin do 2° faz com que o 3° desça, entao zero 0 margin do 3° para ficar certo! */
+    .servico:nth-child(2) {
+        margin-right: 2%;
+    }
+
+    .servico:nth-child(3) {
+        margin-right: 0;
+    }
+    /* Alterando para o footer nao ocupar 100% */
+    .newsletter input {
+        width: 60%;
+        float: none;
+    }
+    .newsletter button {
+        width: 20%;
+        float: none;
+    }
+} 
+
+/* Large devices - wide screens */
+@media screen and (min-width: 1280px ) {
+    .btn-menu {
+        display: none;
+    }
+
+    .btn-close {
+        display: none;
+    }
+
+    nav#menu {
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #f5f5f5;
+        display: block !important;
+        position: static;
+    }
+
+    nav#menu li {
+        padding: 0;
+        float: left;
+    }
+
+    nav#menu li a {
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+    nav#menu li a:hover {
+        border: 1px solid linear-gradient(to right, #ce2e3c, #da6709);
+        color: white;
+        /* color: #da6709; */
+        transition: .1s;
+        border-radius: 7px;
+        background: linear-gradient(to right, #ce2e3c, #da6709);
+    }
+} 
